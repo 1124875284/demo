@@ -19,9 +19,7 @@ public class CloudApplicationTests {
         MyUser user = myUserMapper.selectByPrimaryKey(7L);
         System.out.println(user);
         
-        System.out.println("nihao");
 
-        System.out.println("user = " + user);
     }
 
 }
