@@ -2,6 +2,7 @@ package com.example.cloud.domain;
 
 import lombok.Data;
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.Setter;
 
 import java.io.Serializable;
@@ -15,6 +16,5 @@ public class MyUser  implements Serializable {
     private Long id;
 
     private String userName;
-
     private String userDesc;
 }

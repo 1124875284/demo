@@ -29,4 +29,8 @@
     select id, user_name, user_desc
     from my_user
   </select>
+
+  <select id="selecUserMap" resultType="java.util.Map">
+    select * from my_user where user_name like #{userName};
+  </select>
 </mapper>
